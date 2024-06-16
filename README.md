@@ -30,6 +30,11 @@ Show the milestone of your repo.
 pip install tkinter
 ```
 
+## To run
+```bash
+python repo_milestone_visualizer.py
+```
+
 ## Contribution
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
 
