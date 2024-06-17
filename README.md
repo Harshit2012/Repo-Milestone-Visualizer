@@ -1,5 +1,7 @@
 # Repo Milestone Visualizer
 Show the milestone of your repo.
+> [!IMPORTANT]
+> It will not create chart when the github api reached its limit.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Harshit2012/Repo-Milestone-Visualizer?tab=MIT-1-ov-file#readme)
 ![GitHub Release](https://img.shields.io/github/v/release/harshit2012/Repo-Milestone-Visualizer)
