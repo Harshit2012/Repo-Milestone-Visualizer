@@ -23,19 +23,21 @@ class RepoMilestoneVisualizer:
         form_frame.pack(pady=10)
 
         tk.Label(form_frame, text="Username:").grid(row=0, column=0, padx=5, pady=5)
-        self.username_entry = tk.Entry(form_frame)
+        self.username_entry = tk.Entry(form_frame, font=("Arial", 12))
         self.username_entry.grid(row=0, column=1, padx=5, pady=5)
+        self.username_entry.insert(0, "example-username")
 
         tk.Label(form_frame, text="Repository:").grid(row=1, column=0, padx=5, pady=5)
-        self.repo_entry = tk.Entry(form_frame)
+        self.repo_entry = tk.Entry(form_frame, font=("Arial", 12))
         self.repo_entry.grid(row=1, column=1, padx=5, pady=5)
+        self.repo_entry.insert(0, "example-repo")
 
-        fetch_button = tk.Button(self.root, text="Fetch Data and Download Chart", command=self.fetch_and_download)
-        fetch_button.pack(pady=10)
+        fetch_button = tk.Button(self.root, text="Fetch Data and Download Chart", command=self.fetch_and_download, bg="#4CAF50", fg="white", font=("Arial", 14))
+        fetch_button.pack(pady=20, ipadx=10, ipady=5)
 
     def fetch_and_download(self):
-        username = self.username_entry.get()
-        repo = self.repo_entry.get()
+        username = self.username_entry.get().strip()
+        repo = self.repo_entry.get().strip()
         if not username or not repo:
             messagebox.showerror("Input Error", "Please enter both username and repository name.")
             return
