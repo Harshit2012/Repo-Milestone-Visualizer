@@ -24,6 +24,15 @@ Show the milestone of your repo.
    - Pull Requests: "Few PRs," "Active PRs," "24x7 Puller"
    - Commits: "Few Commits," "Regular Commits," "Commit King"
 
+## Example
+**Repository:- Repo-Milestone-Visualizer**
+![graph](https://github.com/Harshit2012/Repo-Milestone-Visualizer/assets/105143145/2022ac38-6bd0-4204-bf56-f5141fc75724)
+
+## Adding it to readme
+```markdown
+<img src="path/to/your/saved/graph.png" alt="GitHub Milestones" style="max-width: 100%; height: auto;">
+```
+
 ## To install libraries
 ### Tkinter
 ```bash
