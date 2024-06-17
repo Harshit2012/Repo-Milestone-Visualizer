@@ -30,7 +30,7 @@ Show the milestone of your repo.
 
 ## Adding it to readme
 Drag the chart and drop in readme or use img tag.
-### img tag
+### IMG tag
 ```markdown
 <img src="path/to/your/saved/graph.png" alt="Repo Milestones" style="max-width: 100%; height: auto;">
 ```
