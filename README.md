@@ -41,6 +41,21 @@ Drag the chart and drop in readme or use img tag.
 pip install tkinter
 ```
 
+### Matplotlib
+```bash
+pip instal matplotlib
+```
+
+### Numpy
+```bash
+pip install numpy
+```
+
+### Requests
+```bash
+pip install requests
+```
+
 ## To run
 ```bash
 python repo_milestone_visualizer.py
