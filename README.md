@@ -29,8 +29,10 @@ Show the milestone of your repo.
 ![graph](https://github.com/Harshit2012/Repo-Milestone-Visualizer/assets/105143145/2022ac38-6bd0-4204-bf56-f5141fc75724)
 
 ## Adding it to readme
+Drag the chart and drop in readme or use img tag.
+### <img>
 ```markdown
-![name-of-file](path/to/your/saved/graph.png)
+<img src="path/to/your/saved/graph.png" alt="Repo Milestones" style="max-width: 100%; height: auto;">
 ```
 
 ## To install libraries
