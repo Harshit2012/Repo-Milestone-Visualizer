@@ -30,7 +30,7 @@ Show the milestone of your repo.
 
 ## Adding it to readme
 ```markdown
-<img src="path/to/your/saved/graph.png" alt="GitHub Milestones" style="max-width: 100%; height: auto;">
+![name-of-file](path/to/your/saved/graph.png)
 ```
 
 ## To install libraries
