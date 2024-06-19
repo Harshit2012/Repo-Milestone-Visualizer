@@ -8,7 +8,7 @@ Show the milestone of your repo.
 ![Forks](https://img.shields.io/github/forks/harshit2012/Repo-Milestone-Visualizer)
 ![Stars](https://img.shields.io/github/stars/harshit2012/Repo-Milestone-Visualizer)
 
-## Fetures
+## Features
 - Easy to use
 - One click fetch the data and download
 
